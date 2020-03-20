@@ -32,6 +32,7 @@ changeBuildType(RelativeId("Build")) {
     steps {
         update<ScriptBuildStep>(0) {
             name = "Install step"
+            scriptContent = "npm insta"
         }
     }
 }
